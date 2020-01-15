@@ -23,15 +23,22 @@
 ## Architecture
 ![kdgan](/image/kdgan.bmp "kdgan")
 
-### important notation
+### Important notation
 #### a.  the true data distribution: $p_u(y|X)$
 #### b.  the true label generated from the true data distribution: $y$
-#### c.  the  concrete distributions: $q_C(y|x)$ and $q_{t}^{\rho}(y|x)$
+#### c.  the  concrete distributions: $q_c(y|x)$ and $q_{t}^{\rho}(y|x)$
 #### d.  the continuous samples generated from concrete distributions: $y^C$ and $y^t$
 #### e.  the soft labels produced by C and T: $s^C$ and $s^t$
 #### f.  the distillation losses for C and T: $L_{DS}^{c}$ and $L_{DS}^{t}$
 #### g.  the adversarial losses for positive and negative feature-label pairs: $L_{AD}^{p}$ and $L_{AD}^{n}$
 
 ##  Methods
->> 
->> 
+### NaGAN Formulation
+#### Classifier C: generates pseudo labels y given features x following a categorical distribution $p_c(y|x)$ 
+#### Discriminator D: computes the probability $p_{d}^{\rho}(x,y)$ of a label y being from the true data distribution p_u(y|x) given features x
+
+#### Value function: 
+![equation1](/image/equation1.bmp "equation1")
+
+### KDGAN Formulation
+#### 
