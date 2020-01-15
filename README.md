@@ -26,11 +26,11 @@
 ### important notation
 #### a.  the true data distribution: $p_u(y|X)$
 #### b.  the true label generated from the true data distribution: $y$
-#### c.  the  concrete distributions: $q_C(y|x)$ and $q_{t}_{\rho}(y|x)$
+#### c.  the  concrete distributions: $q_C(y|x)$ and $q_{t}^{\rho}(y|x)$
 #### d.  the continuous samples generated from concrete distributions: $y^C$ and $y^t$
 #### e.  the soft labels produced by C and T: $s^C$ and $s^t$
 #### f.  the distillation losses for C and T: $L_{DS}^{c}$ and $L_{DS}^{t}$
-#### g.  the adversarial losses for positive and negative feature-label pairs: $L_{AD}^{p}$ and $L_{AD}^{n}
+#### g.  the adversarial losses for positive and negative feature-label pairs: $L_{AD}^{p}$ and $L_{AD}^{n}$
 
 ##  Methods
 >> 
