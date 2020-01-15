@@ -21,7 +21,7 @@
 >> against the discriminator via adversarial losses <br>  
 
 ## Architecture
-![kdgan](/image/kdgan.bmp kdgan)
+![kdgan](/image/kdgan.bmp "kdgan")
 
 ##  Methods
 >> 
